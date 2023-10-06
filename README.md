@@ -21,7 +21,7 @@ This project is a simple implementation of a BASH-like shell in C. It provides b
 
 ### Compilation
 
-Compile the shell using the provided Makefile:
+Compile the shell using GCC with the options below:
 
 ```bash
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
