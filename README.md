@@ -24,7 +24,7 @@ This project is a simple implementation of a BASH-like shell in C. It provides b
 Compile the shell using the provided Makefile:
 
 ```bash
-make
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 ```
 
 ### Running the Shell
@@ -32,19 +32,19 @@ make
 To start the interactive shell, simply run:
 
 ```bash
-./shell
+./hsh
 ```
 
 To execute commands in non-interactive mode, you can provide a script file:
 
 ```bash
-./shell -f script.txt
+./hsh script.txt
 ```
 
 Or run a single command directly:
 
 ```bash
-./shell -c "ls -l"
+./hsh "ls -l"
 ```
 
 ## Usage
