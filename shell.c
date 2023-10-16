@@ -125,7 +125,6 @@ void handle_pipe_or_redirection(void)
 			}
 			_exec(line);
 			free(line);
-		
 		}
 		return;
 	}
