@@ -62,8 +62,7 @@ Once in the shell, you can use standard BASH-like syntax to enter and execute co
   ```bash
   $ cd /path/to/directory
   $ pwd
-  $ echo "Hello, World!"
-  $ exit
+  $ echo "Hello, World! "
   ```
 
 - Create pipelines:
